@@ -28,7 +28,7 @@ twitter_username: elit8888
 github_username:  elit8888
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
