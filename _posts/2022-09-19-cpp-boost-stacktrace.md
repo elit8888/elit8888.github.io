@@ -13,6 +13,9 @@ Reference: https://stackoverflow.com/questions/3899870/print-call-stack-in-c-or-
 {% highlight cpp %}
 #include <iostream>
 
+#define BOOST_STACKTRACE_USE_ADDR2LINE
+#include <boost/stacktrace.hpp>
+
 using namespace std::string_literals;
 
 struct Fun {
