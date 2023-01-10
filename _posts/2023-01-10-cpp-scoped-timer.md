@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "C++ Scoped Timer"
-date:   2023-01-10 23:23:23 +0800
+date:   2023-01-10 22:22:22 +0800
 categories: c++
 tags: c++ raii
 ---
