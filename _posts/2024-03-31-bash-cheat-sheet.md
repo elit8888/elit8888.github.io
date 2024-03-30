@@ -2,8 +2,8 @@
 layout: post
 title:  "Bash Cheat Sheet"
 date:   2024-03-31 09:09:09 +0800
-categories: c++ bash
-tags: c++ bash
+categories: bash
+tags: bash
 ---
 
 Some bash utils that I am easy to forget.
