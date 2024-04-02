@@ -1,8 +1,8 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem "jekyll", "~> 4.2"
-
+# If you have any plugins, put them here!
 group :jekyll_plugins do
-    gem "jekyll-timeago", "~> 0.13.1"
+  gem "jekyll-feed"
+  gem "github-pages"
+  gem "jekyll-include-cache"
 end
-gem "github-pages", group: :jekyll_plugins
