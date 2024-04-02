@@ -1,24 +1,21 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
+# Bundler cache
+.bundle
 vendor
+Gemfile.lock
 
-# Swap
-[._]*.s[a-v][a-z]
-[._]*.sw[a-p]
-[._]s[a-rt-v][a-z]
-[._]ss[a-gi-z]
-[._]sw[a-p]
+# Jekyll cache
+.jekyll-cache
+_site
 
-# Session
-Session.vim
-Sessionx.vim
+# RubyGems
+*.gem
 
-# Temporary
-.netrwhist
-*~
-# Auto-generated tag files
-tags
-# Persistent undo
-[._]*.un~
+# NPM dependencies
+node_modules
+package-lock.json
+
+# IDE configurations
+.idea
+
+# Misc
+assets/js/dist

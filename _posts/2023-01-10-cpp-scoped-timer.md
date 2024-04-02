@@ -1,14 +1,13 @@
 ---
-layout: post
-title:  "C++ Scoped Timer"
-date:   2023-01-10 22:22:22 +0800
-categories: c++
-tags: c++ raii
+title: "C++ Scoped Timer"
+date: 2023-01-10 22:22:22 +0800
+categories: [c++]
+tags: [c++, raii]
 ---
 
 Code for scoped timer. Once a block goes out of a scope, duration will be printed.
 
-{% highlight cpp %}
+```c++
 #include <iostream>
 #include <string>
 #include <chrono>
@@ -34,4 +33,4 @@ auto main() -> int {
   }
   return 0;
 }
-{% endhighlight %}
+```

@@ -1,9 +1,8 @@
 ---
-layout: post
-title:  "C++ Boost Adaptor"
-date:   2022-09-27 15:00:00 +0800
-categories: c++ boost
-tags: c++ boost
+title: "C++ Boost Adaptor"
+date: 2022-09-27 15:00:00 +0800
+categories: [c++, boost]
+tags: [c++, boost]
 ---
 
 Code for using filtered / transformed view over some existing containers

@@ -1,15 +1,14 @@
 ---
-layout: post
-title:  "C++ Ranges"
-date:   2023-09-14 09:09:09 +0800
-categories: c++ ranges
-tags: c++ ranges
+title: "C++ Ranges"
+date: 2023-09-14 09:09:09 +0800
+categories: [c++, ranges]
+tags: [c++, ranges]
 ---
 
 Code for std ranges to transform from a collection to another collection after some ranges operations, available in c++23.
 Doing this we can have AAA style.
 
-{% highlight cpp %}
+```c++
 #include <vector>
 #include <string>
 #include <ranges>
@@ -23,6 +22,6 @@ int main() {
             std::views::transform([](const auto& p) { return p.first; }));
     return 0;
 }
-{% endhighlight %}
+```
 
 https://godbolt.org/z/vMn1se8P7
