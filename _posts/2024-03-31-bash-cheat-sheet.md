@@ -5,7 +5,7 @@ categories: [bash]
 tags: [bash]
 ---
 
-Some bash utils that I am easy to forget.
+Some bash utils that I almost always to forget.
 
 ```
 Ctrl-o - used when browsing history command (Ctrl-r), it will execute the command, and fetch the next one from the history.
@@ -15,4 +15,11 @@ To copy some files to a backup to have the same extension name
 ```bash
 cp a.txt a.txt.a-long-text-for-testing-that-i-dont-want-to-retype
 cp b.txt b.txt.${_##*.}
+```
+
+To separate filename and extension name
+```bash
+fname="test.tar.gz"
+echo "${fname%.*}"   # test.tar
+echo "${fname##*.}"  # gz
 ```
